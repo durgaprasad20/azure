@@ -7,13 +7,3 @@ provider "azurerm" {
   tenant_id       = "e3a29ccb-e13d-41c9-8c72-3ab468c95172"
 }
 
-terraform {
-required_version = ">= 0.11"
-
-backend "azurerm" {
-storage_account_name = "storage112633"
-container_name = "Containers"
-key = "pipeline"
-access_key ="GNWbg582dlHoG8uSNK2aVzLRjpHcwoymtDYumzVYLBViUurkW8bQknb0aWHT6zWeUWB+k/Ng4p7E5etAkAi+eA=="
-}
-}
